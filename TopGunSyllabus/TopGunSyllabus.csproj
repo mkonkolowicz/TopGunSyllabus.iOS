@@ -42,7 +42,7 @@
     <AndroidLinkSkip />
     <EmbedAssembliesIntoApk>True</EmbedAssembliesIntoApk>
     <BundleAssemblies>True</BundleAssemblies>
-    <AndroidCreatePackagePerAbi>True</AndroidCreatePackagePerAbi>
+    <AndroidCreatePackagePerAbi>False</AndroidCreatePackagePerAbi>
     <AndroidSupportedAbis>
     </AndroidSupportedAbis>
     <AndroidStoreUncompressedFileExtensions />
