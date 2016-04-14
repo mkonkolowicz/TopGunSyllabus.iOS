@@ -13,8 +13,17 @@ namespace TopGunSyllabus.Core.Repository
         {
             new Phase()
             {
-                Id = 1,
+                Id = 0,
                 Name = "Introduction to a Coding Environment",
+                LearningObjectives ="Intro to TFS including source control, the development environment \r\n A review of basic development including types, operators, arrays, loops, classes \r\n A review of basic OOP principles including interfaces and abstract classes in a C# context",
+                Length = 1,
+                Summary ="Students will become familiar with coding in a C# environment. The week will include an introduction to Title Source specific tools and programming concepts"
+            }
+            ,
+            new Phase()
+            {
+                Id = 1,
+                Name = "Introduction to Automation",
                 LearningObjectives ="Intro to TFS including source control, the development environment \r\n A review of basic development including types, operators, arrays, loops, classes \r\n A review of basic OOP principles including interfaces and abstract classes in a C# context",
                 Length = 1,
                 Summary ="Students will become familiar with coding in a C# environment. The week will include an introduction to Title Source specific tools and programming concepts"

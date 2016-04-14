@@ -64,7 +64,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Adapters\PhaseListAdapter.cs" />
-    <Compile Include="MainActivity.cs" />
     <Compile Include="PhaseDetailActivity.cs" />
     <Compile Include="PhaseMenuActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />

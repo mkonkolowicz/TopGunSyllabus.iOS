@@ -30,6 +30,14 @@ namespace TopGunSyllabus
             phaseDataService = new PhaseDataService();
             allPhases = phaseDataService.GetAllPhases();
             phaseListView.Adapter = new PhaseListAdapter(this,allPhases);
+            phaseListView.ItemClick += OnListItemClick;
+        }
+
+        void OnListItemClick(object sender, AdapterView.ItemClickEventArgs e)
+        {
+            var listView = sender as ListView;
+            var clickedRow = e.Position;
+            StartActivity(typeof (PhaseDetailActivity) );
         }
     }
 }
