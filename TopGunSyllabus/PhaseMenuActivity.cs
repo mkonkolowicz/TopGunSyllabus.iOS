@@ -15,7 +15,7 @@ using TopGunSyllabus.Core.Service;
 
 namespace TopGunSyllabus
 {
-    [Activity(Label = "PhaseMenuActivity", MainLauncher = true)]
+    [Activity(Label = "Top Gun Phases", MainLauncher = true)]
     public class PhaseMenuActivity : Activity
     {
         private ListView phaseListView;
