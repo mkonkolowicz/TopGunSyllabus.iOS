@@ -15,7 +15,7 @@ using TopGunSyllabus.Core.Service;
 
 namespace TopGunSyllabus
 {
-    [Activity(Label = "Top Gun Syllabus", MainLauncher = true)]
+    [Activity(Label = "Top Gun Syllabus",MainLauncher = true)]
     public class PhaseMenuActivity : Activity
     {
         private ListView phaseListView;
@@ -37,7 +37,15 @@ namespace TopGunSyllabus
         {
             var listView = sender as ListView;
             var clickedRow = e.Position;
-            StartActivity(typeof (PhaseDetailActivity) );
+            switch (clickedRow)
+            {
+                case 0:
+                    StartActivity(typeof(PhaseDetailActivity));
+                    break;
+                default:
+                    StartActivity(typeof(PhaseDetailActivity));
+                    break;
+            }
         }
     }
 }
