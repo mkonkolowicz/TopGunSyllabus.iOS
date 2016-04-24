@@ -37,13 +37,26 @@ namespace TopGunSyllabus
         {
             var listView = sender as ListView;
             var clickedRow = e.Position;
+                                         
             switch (clickedRow)
             {
                 case 0:
-                    StartActivity(typeof(PhaseDetailActivity));
+                    StartActivity(typeof(Phase0));
+                    break;
+                case 1:
+                    StartActivity(typeof(Phase1));
+                    break;
+                case 2:
+                    StartActivity(typeof(Phase2));
+                    break;
+                case 3:
+                    StartActivity(typeof(Phase3));
+                    break;
+                case 4:
+                    StartActivity(typeof(Phase4));
                     break;
                 default:
-                    StartActivity(typeof(PhaseDetailActivity));
+                    StartActivity(typeof(PhaseMenuActivity));
                     break;
             }
         }

@@ -15,8 +15,8 @@ using TopGunSyllabus.Utility;
 
 namespace TopGunSyllabus
 {
-    [Activity(Label = "Syllabus Phase Details", MainLauncher = false)]
-    public class PhaseDetailActivity : Activity
+    [Activity(Label = "Fully functional testing", MainLauncher = false)]
+    public class Phase3 : Activity
     {
         private ImageView phaseDetailImageView;
         private TextView phaseNameTextView;
@@ -31,7 +31,7 @@ namespace TopGunSyllabus
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.PhaseDetailView);
             PhaseDataService dataService = new PhaseDataService();
-            selectedPhase = dataService.ReturnPhaseById(1);
+            selectedPhase = dataService.ReturnPhaseById(3);
             FindViews();
             BindData();
         }
