@@ -1,17 +1,10 @@
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
 using Android.App;
-using Android.Content;
-using Android.OS;
-using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using TopGunSyllabus.Core.Model;
 
-namespace TopGunSyllabus.Adapters
+namespace TopGunSyllabus.Android.Adapters
 {
     public class PhaseListAdapter: BaseAdapter<Phase>
     {
@@ -50,9 +43,9 @@ namespace TopGunSyllabus.Adapters
             var item = items[position];
             if (convertView == null)
             {
-                convertView = context.LayoutInflater.Inflate(Android.Resource.Layout.SimpleListItem1, null);
+                convertView = context.LayoutInflater.Inflate(global::Android.Resource.Layout.SimpleListItem1, null);
             }
-            convertView.FindViewById<TextView>(Android.Resource.Id.Text1).Text =
+            convertView.FindViewById<TextView>(global::Android.Resource.Id.Text1).Text =
                 item.Name;
             return convertView;
         }

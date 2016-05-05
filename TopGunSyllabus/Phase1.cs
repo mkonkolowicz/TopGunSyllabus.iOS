@@ -1,19 +1,11 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
 using Android.App;
-using Android.Content;
 using Android.OS;
-using Android.Runtime;
-using Android.Views;
 using Android.Widget;
+using TopGunSyllabus.Android.Utility;
 using TopGunSyllabus.Core.Model;
 using TopGunSyllabus.Core.Service;
-using TopGunSyllabus.Utility;
 
-namespace TopGunSyllabus
+namespace TopGunSyllabus.Android
 {
     [Activity(Label = "Introduction to Automation", MainLauncher = false)]
     public class Phase1 : Activity

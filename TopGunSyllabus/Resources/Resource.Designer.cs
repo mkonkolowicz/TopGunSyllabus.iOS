@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("TopGunSyllabus.Resource", IsApplication=true)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("TopGunSyllabus.Android.Resource", IsApplication=true)]
 
-namespace TopGunSyllabus
+namespace TopGunSyllabus.Android
 {
 	
 	
