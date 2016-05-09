@@ -16,21 +16,37 @@ namespace TopGunSyllabus.iPhone
 	{
 		[Outlet]
 		[GeneratedCode ("iOS Designer", "1.0")]
-		UILabel TopGunBanner { get; set; }
+		UIImageView Banner { get; set; }
 
 		[Outlet]
 		[GeneratedCode ("iOS Designer", "1.0")]
-		UIImageView TopGunBannerView { get; set; }
+		UITextView PhaseDetails { get; set; }
+
+		[Outlet]
+		[GeneratedCode ("iOS Designer", "1.0")]
+		UITextView PhaseSummary { get; set; }
+
+		[Outlet]
+		[GeneratedCode ("iOS Designer", "1.0")]
+		UILabel TopGunSyllabusLabel { get; set; }
 
 		void ReleaseDesignerOutlets ()
 		{
-			if (TopGunBanner != null) {
-				TopGunBanner.Dispose ();
-				TopGunBanner = null;
+			if (Banner != null) {
+				Banner.Dispose ();
+				Banner = null;
 			}
-			if (TopGunBannerView != null) {
-				TopGunBannerView.Dispose ();
-				TopGunBannerView = null;
+			if (PhaseDetails != null) {
+				PhaseDetails.Dispose ();
+				PhaseDetails = null;
+			}
+			if (PhaseSummary != null) {
+				PhaseSummary.Dispose ();
+				PhaseSummary = null;
+			}
+			if (TopGunSyllabusLabel != null) {
+				TopGunSyllabusLabel.Dispose ();
+				TopGunSyllabusLabel = null;
 			}
 		}
 	}

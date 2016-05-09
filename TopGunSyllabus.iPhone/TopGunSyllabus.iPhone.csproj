@@ -108,6 +108,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Entitlements.plist" />
+    <BundleResource Include="Images\topgun_teamfortress.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </BundleResource>
+    <BundleResource Include="topgun_teamfortress.png" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\TopGunSyllabus.Core\TopGunSyllabus.Core.csproj">
@@ -115,5 +119,6 @@
       <Name>TopGunSyllabus.Core</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
