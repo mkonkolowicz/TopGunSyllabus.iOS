@@ -5,12 +5,12 @@ using UIKit;
 
 namespace TopGunSyllabus.iPhone
 {
-    public partial class ViewController : UIViewController
+    public partial class PhaseDetailViewController : UIViewController
     {
-        public ViewController(IntPtr handle) : base(handle)
+        public PhaseDetailViewController(IntPtr handle) : base(handle)
         {
-            PhaseDataService phaseDataService = new PhaseDataService();
-            SelectedPhase = phaseDataService.ReturnPhaseById(0);
+            //PhaseDataService phaseDataService = new PhaseDataService();
+            //SelectedPhase = phaseDataService.ReturnPhaseById(1);
         }
 
         public Phase SelectedPhase
@@ -20,7 +20,6 @@ namespace TopGunSyllabus.iPhone
         {
             base.ViewDidLoad();
             DataBindUI();
-            // Perform any additional setup after loading the view, typically from a nib.
         }
 
         private void DataBindUI()

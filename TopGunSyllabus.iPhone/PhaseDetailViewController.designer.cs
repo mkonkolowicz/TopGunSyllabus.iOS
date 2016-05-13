@@ -11,8 +11,8 @@ using UIKit;
 
 namespace TopGunSyllabus.iPhone
 {
-	[Register ("ViewController")]
-	partial class ViewController
+	[Register ("PhaseDetailViewController")]
+	partial class PhaseDetailViewController
 	{
 		[Outlet]
 		[GeneratedCode ("iOS Designer", "1.0")]
