@@ -46,9 +46,9 @@ namespace TopGunSyllabus.iPhone.DataSources
         }
 
         public override void RowSelected(UITableView tableView, NSIndexPath indexPath)
-        {
-            tableView.DeselectRow(indexPath, true);
+		{
             callingController.PerformSegue("PhaseDetailSegue",this);
+			tableView.DeselectRow(indexPath, true);
         }
 
     }
