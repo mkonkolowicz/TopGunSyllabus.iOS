@@ -10,11 +10,15 @@ namespace TopGunSyllabus.iPhone.DataSources
     public class PhaseDataSource : UITableViewSource
     {
         private List<Phase> phases;
+        protected Phase[] phaseNames;
         NSString cellIdentifier = new NSString("PhaseCell");
+        private UITableViewController callingController;
 
         public PhaseDataSource (List<Phase> phases, UITableViewController callingController )
         {
             this.phases = phases;
+            phaseNames = this.phases.ToArray();
+            this.callingController = callingController;
         }
         public override UITableViewCell GetCell(UITableView tableView, NSIndexPath indexPath)
         {
@@ -40,6 +44,12 @@ namespace TopGunSyllabus.iPhone.DataSources
         {
             return phases[id];
         }
-                
+
+        public override void RowSelected(UITableView tableView, NSIndexPath indexPath)
+        {
+            tableView.DeselectRow(indexPath, true);
+            callingController.PerformSegue("PhaseDetailSegue",this);
+        }
+
     }
 }

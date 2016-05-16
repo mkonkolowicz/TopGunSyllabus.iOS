@@ -31,16 +31,12 @@ namespace TopGunSyllabus.iPhone
 
 	        if(segue.Identifier == "PhaseDetailSegue")
 	        {
-	            var phaseDetailViewController = segue.DestinationViewController as PhaseDetailViewController;
-	            if(phaseDetailViewController != null)
-	            {
-	                var source = TableView.Source as PhaseDataSource;
-	                var rowPath = TableView.IndexPathForSelectedRow;
-	                var item = source.GetItem(rowPath.Row);
-                    phaseDetailViewController.SelectedPhase = item;
-	            }
+	            var dataSource = sender as PhaseDataSource;
+                var phaseDetailViewController = segue.DestinationViewController as PhaseDetailViewController;
+	            var rowPath = TableView.IndexPathForSelectedRow;
+	            var item = dataSource.GetItem(rowPath.Row);
+	            if (phaseDetailViewController != null) phaseDetailViewController.SelectedPhase = item;
 	        }
 	    }
-        
-    }
+	}
 }
