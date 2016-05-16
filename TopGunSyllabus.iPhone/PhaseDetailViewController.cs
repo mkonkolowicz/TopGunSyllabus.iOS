@@ -27,7 +27,7 @@ namespace TopGunSyllabus.iPhone
             PhaseSummary.Text = SelectedPhase.Summary;
             PhaseDetails.Text = SelectedPhase.LearningObjectives;
             var banner = new UIImageView {Image = UIImage.FromFile("Images\topgun_teamfortress.png")};
-            Banner = banner;
+            this.Banner = banner;
         }
 
         public override void DidReceiveMemoryWarning()
