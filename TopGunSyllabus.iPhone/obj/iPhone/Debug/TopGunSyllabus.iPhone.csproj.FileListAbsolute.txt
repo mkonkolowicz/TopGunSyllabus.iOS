@@ -1,0 +1,12 @@
+C:\Github\TopGunSyllabus\TopGunSyllabus.iPhone\obj\iPhone\Debug\ibtool\_BundleResourceWithLogicalName.items
+C:\Github\TopGunSyllabus\TopGunSyllabus.iPhone\obj\iPhone\Debug\optimized\
+C:\Github\TopGunSyllabus\TopGunSyllabus.iPhone\obj\iPhone\Debug\optimized\Entitlements.plist
+C:\Github\TopGunSyllabus\TopGunSyllabus.iPhone\obj\iPhone\Debug\TopGunSyllabus.iPhone.csprojResolveAssemblyReference.cache
+C:\Github\TopGunSyllabus\TopGunSyllabus.iPhone\bin\iPhone\Debug\TopGunSyllabusiPhone.exe
+C:\Github\TopGunSyllabus\TopGunSyllabus.iPhone\bin\iPhone\Debug\TopGunSyllabusiPhone.pdb
+C:\Github\TopGunSyllabus\TopGunSyllabus.iPhone\bin\iPhone\Debug\TopGunSyllabus.Core.dll
+C:\Github\TopGunSyllabus\TopGunSyllabus.iPhone\bin\iPhone\Debug\TopGunSyllabus.Core.pdb
+C:\Github\TopGunSyllabus\TopGunSyllabus.iPhone\obj\iPhone\Debug\TopGunSyllabusiPhone.exe
+C:\Github\TopGunSyllabus\TopGunSyllabus.iPhone\obj\iPhone\Debug\TopGunSyllabusiPhone.pdb
+C:\Github\TopGunSyllabus\TopGunSyllabus.iPhone\obj\iPhone\Debug\TopGunSyllabusiPhone.exe.mdb
+C:\Github\TopGunSyllabus\TopGunSyllabus.iPhone\bin\iPhone\Debug\TopGunSyllabusiPhone.exe.mdb
